@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=League+Spartan:wght@400;700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    color: #9C9C9C;
+    background-color: #080808;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.header_inner {
+    background-color: #1B1B1B;
+    border-radius: 0 0 1rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%; 
+}
+
+.nav_link {
+    margin: 24px 0 28px 95px;
+    position: relative;
+    text-decoration: none;
+    color: #9C9C9C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header_links {
+    margin: auto;
+}
+
+.links {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.main_inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.about {
+    padding-top: 4rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+
+.about_name {
+    padding-bottom: 2rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.about_info {
+    padding-right: 2rem;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9C9C9C;
+    
+}
+
+.photo {
+    margin-right: 7rem;
+    border-radius: 100%;
+}
+
+.btn {
+    width: 307px;
+    height: 63px;
+    border-radius: 7px;
+    background-color: #62BA1B;
+    box-shadow: 2px 4px 17px 0px #3F8E00 ;
+    border: #62BA1B;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 2px 4px 17px 5px #3F8E00 ;
+}
+
+.main {
+    margin-bottom: 109px;
+}
